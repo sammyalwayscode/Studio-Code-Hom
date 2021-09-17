@@ -9,7 +9,7 @@ const Home4 = () => {
         <ContainText>
           Do you have a standard equipment or studio you can rent out?
         </ContainText>
-        <Button>Apply TO Get Listed</Button>
+        <Button>Apply to get listed</Button>
         <SubText>Please check out our terms and condition</SubText>
       </Container>
     </div>
@@ -36,10 +36,12 @@ const ContainText = styled.div`
   font-size: xx-large;
   font-weight: 600;
   color: #9ca0a4;
+  text-align: center;
+  margin-bottom: 1%;
 `;
 const Button = styled.div`
   width: 200px;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,4 +50,7 @@ const Button = styled.div`
   border-radius: 5px;
   background-color: #4a87ed;
 `;
-const SubText = styled.div``;
+const SubText = styled.div`
+  font-size: x-small;
+  color: #fff;
+`;
